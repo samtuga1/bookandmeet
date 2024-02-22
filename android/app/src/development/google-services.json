@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "853928092310",
+    "project_id": "bookandmeet-dev",
+    "storage_bucket": "bookandmeet-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853928092310:android:b54b60d62c52af94c858b7",
+        "android_client_info": {
+          "package_name": "com.bookandmeet.org.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNdf1UeDDT_AOsQKub1W1SQyw8gCT1DfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
