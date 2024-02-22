@@ -27,7 +27,7 @@ dependencies:
   intl: ^0.18.0
 
   #state management
-  signals: ^3.0.0
+  signals: ^4.4.0
 
 dev_dependencies:
   flutter_test:
