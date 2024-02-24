@@ -16,7 +16,7 @@ dependencies:
   flutter_svg: ^2.0.9
   icons_plus: ^5.0.0
   google_fonts: ^6.1.0
-  pinput: ^3.0.1
+  pinput: ^4.0.0
 
   # services
   firebase_core: ^2.25.2
