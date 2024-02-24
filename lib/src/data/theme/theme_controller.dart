@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:signals/signals.dart';
 
 class ThemeController implements IThemeController {
-  final themeMode = signal<ThemeMode>(ThemeMode.dark);
+  final themeMode = signal<ThemeMode>(ThemeMode.light);
 
   @override
   void changeThemeMode(ThemeMode mode) {

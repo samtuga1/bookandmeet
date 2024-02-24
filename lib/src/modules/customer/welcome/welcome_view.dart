@@ -1,6 +1,7 @@
 import 'package:bookandmeet/src/data/images/images.dart';
 import 'package:bookandmeet/src/extensions/extensions.dart';
 import 'package:bookandmeet/src/modules/shared/widgets/widgets.dart';
+import 'package:bookandmeet/src/router/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -16,7 +17,7 @@ class CustomerWelcomeView extends StatelessWidget {
         children: [
           60.verticalSpace,
           Text(
-            'Welcome to bookandmeet',
+            'Welcome to bookandmeet!',
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.titleLarge,
           ),
@@ -31,7 +32,8 @@ class CustomerWelcomeView extends StatelessWidget {
           ),
           Spacer(),
           AppButton(
-            onPressed: () {},
+            onPressed: () => Navigator.of(context)
+                .pushReplacementNamed(Routes.customerIndex),
             title: "Let's go",
           ),
           40.verticalSpace,
