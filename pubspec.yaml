@@ -19,7 +19,7 @@ dependencies:
   pinput: ^3.0.1
 
   # services
-  firebase_core: ^2.25.2
+  firebase_core: ^2.29.0
   firebase_crashlytics: ^3.4.12
   get_it: ^7.6.7
   flutter_localizations:
