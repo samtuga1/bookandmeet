@@ -20,7 +20,7 @@ dependencies:
 
   # services
   firebase_core: ^2.25.2
-  firebase_crashlytics: ^3.4.12
+  firebase_crashlytics: ^3.5.2
   get_it: ^7.6.7
   flutter_localizations:
     sdk: flutter
